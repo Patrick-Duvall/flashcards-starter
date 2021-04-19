@@ -9,7 +9,7 @@ class Game {
   constructor() {}
 
   printMessage(deck) {
-    return (`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
+    console.log(`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
 -----------------------------------------------------------------------`)
   }
 
